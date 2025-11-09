@@ -4,6 +4,8 @@ const asyncHandler = (fn) => (req, res, next) => {
 
 module.exports = asyncHandler;
 
+{
+  /*
 //contoh pemakaian di route//
 const asyncHandler = require("../middleware/asyncHandler");
 
@@ -17,3 +19,6 @@ router.get(
     res.json({ message: "Ini tidak akan dijalankan" });
   })
 );
+
+*/
+}
